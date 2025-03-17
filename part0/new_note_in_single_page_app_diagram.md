@@ -3,7 +3,7 @@ sequenceDiagram
     participant browser
     participant server
 
-    Note right of browser: The browser uses the JavaScript it fetched from the sever to rerender the notes and to send the new note to the server.
+    Note right of browser: The browser uses the JavaScript it has fetched from the sever to rerender the notes and to send the new note to the server.
 
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
     activate server
